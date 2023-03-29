@@ -1,0 +1,185 @@
+*{
+  word-break: keep-all;
+ 
+}
+
+ul,li{
+  list-style: none;
+}
+
+#data{
+  display: flex;
+  justify-content: space-between;
+  padding: 4vw 10vw;
+  height: 12.3vw;
+}
+
+#time{
+  display: inline-block;
+  font-size: 4.2vw;
+  font-weight: 900;
+  color: black;
+}
+
+#data ul{
+  display: flex;
+  gap: 2vw;
+}
+
+#data li{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: contain;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+#data .cellular{
+  width: 5vw;
+  background-image: url(../images/cellular.png);
+}
+
+#data .wifi{
+  width: 5vw;
+  background-image: url(../images/wifi.png);
+}
+
+#data .battery{
+  width: 5vw;
+  background-image: url(../images/battery.png);
+}
+
+#edit{
+  display: flex;
+  justify-content: space-between;
+  padding: 4vw 5vw;
+  height: 12.3vw;
+  
+}
+
+#edit h2{
+  font-size: 6vw;
+  font-weight: 500;
+}
+
+#edit ul{
+  display: flex;
+  gap: 2vw;
+}
+
+#edit li{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: contain;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+#edit .glass{
+  width: 5vw;
+  background-image: url(../images/search.png);
+}
+
+#edit .person{
+  width: 5vw;
+  background-image: url(../images/user-blank.png);
+}
+
+#edit .gear{
+  width: 5vw;
+  background-image: url(../images/settings.png);
+}
+
+#friendlist .avatar{
+  width: 13vw;
+  height: 13vw;
+  margin-bottom: 5vw;
+  margin-right: 4vw;
+  border-radius: 5vw;
+  background: url(../images/avatar.png) no-repeat 0 50%;
+  background-size: contain;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+#friendlist ul li {
+  display: flex;
+  
+}
+
+.chat .contents{
+  text-decoration: none;
+}
+
+.chat .contents p{
+  display: flex;
+  align-items: center;
+  
+  color: #999;  
+}
+
+.chat .contents time{
+  display: flex;
+  
+  align-self: flex-end;
+  color: #999;  
+}
+
+ .contents h2{
+  font-size: 3vw;
+  color: black;
+} 
+
+#bottom{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+#bottom ul{
+  display: flex;
+  background-color: #EFEFEF;
+  justify-content: space-between;
+}
+
+#bottom ul li{
+  width: 13vw;
+  height: 13vw;
+}
+
+#bottom a {
+  display: block;
+  margin-right: 100;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 40%;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+#bottom .friend{
+  background-image: url(../images/user-blank.png);
+}
+
+#bottom .chattion {
+  background-image: url(../images/chat-fill.png);
+}
+
+#bottom .view {
+  background-image: url(../images/view-blank.png);
+}
+
+#bottom .shopping {
+  background-image: url(../images/shopping-blank.png);
+}
+
+#bottom .more {
+  background-image: url(../images/more-blank.png);
+}
+
