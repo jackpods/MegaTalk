@@ -1,3 +1,12 @@
+.avatar {
+  width: 13vw;
+  height: 13vw;
+  border-radius: 5vw;
+  background:url(../images/avatar.png) no-repeat 0 50%;
+  background-size: contain;
+  text-indent: -1000px;
+  overflow: hidden;
+}
 
 #no-mobile { 
   display:none;
